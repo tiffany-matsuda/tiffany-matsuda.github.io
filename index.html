@@ -1,0 +1,37 @@
+<html>
+<script>
+
+function myFunction() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("my-demo").innerHTML = this.responseText;
+        }
+    };
+    xhttp.open("GET", "https://bp16ebor0f.execute-api.us-east-1.amazonaws.com/default/MyFirstlambdafunc", true);
+    xhttp.send();
+
+}
+
+</script>
+
+<head><meta http-equiv = "refresh" content = "10; url = https://ko-fi.com/tiffanym" /></head>
+<body><div align="center">
+<img src="https://s3.us-east-2.amazonaws.com/giiglr.com/banner.jpg"></img>
+<br> 
+(from Amazon S3)
+<h1>Hello <span id="my-demo"></span> (by AWS lambda function)
+<br>
+Welcome OwO! You will be redirected to my Ko-fi in 10 seconds
+<script>myFunction()</script>
+
+<br>
+<a href="https://www.instagram.com/tiffany_matsuda">My Instagram profile</a>
+<br>
+<a href="https://ko-fi.com/tiffanym">My Ko-Fi</a>
+<br>
+Thanks for visiting! UwUwUwU
+</h1>
+</div>
+</body>
+</html>
