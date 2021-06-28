@@ -1,0 +1,74 @@
+a:link,a:active,a:hover {
+    color:#;
+}
+
+a:visited {
+    color:#;
+}
+
+body {
+    background-color:#ffffff;
+    background-color:#9AC956;
+    color:#666666;
+    font-family:'MS Sans Serif';
+    font-weight:normal;
+    font-style:normal;
+    font-size:12px;
+}
+
+.profile_section_content {
+    color:#666666;
+    border:0 none #;
+    padding:5px;
+    margin:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow:0 0 0 #777777;
+    -moz-box-shadow:0 0 0 #777777;
+    box-shadow:0 0 0 #777777;
+}
+
+.profile_section_background {
+    background-color:transparent;
+    background-color:#FFFFFF;
+    filter:alpha(opacity=100);
+    opacity:1;
+}
+
+.img_radius_shadow {
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    -webkit-box-shadow:0 0 0 #777777;
+    -moz-box-shadow:0 0 0 #777777;
+    box-shadow:0 0 0 #777777;
+}
+
+.profile_section_content .heading {
+    padding:5px;
+    background-color:#BCEC76;
+    color:#FFFFFF;
+    font-family:'Verdana';
+    font-weight:normal;
+    font-style:normal;
+    font-size:14px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    -webkit-box-shadow:0 0 0 #777777;
+    -moz-box-shadow:0 0 0 #777777;
+    box-shadow:0 0 0 #777777;
+    -webkit-text-shadow:0 0 0 #777777;
+    -moz-text-shadow:0 0 0 #777777;
+    text-shadow:0 0 0 #777777;
+}
+
+.content {
+    padding:5px;
+}
+
+.my_mfc_news_feed {
+    width:100%;
+    height:330px;
+}
